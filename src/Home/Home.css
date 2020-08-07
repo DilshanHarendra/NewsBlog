@@ -1,0 +1,99 @@
+.home .col-md-6{
+    height: 70vh;
+}
+.home .secondryNews{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+.home .mainNews{
+    display: grid;
+    align-items: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-image: url("http://theme-sphere.com/smart-mag/demos/zine/wp-content/uploads/sites/4/2017/01/StockSnap_0BJHJZTG7D-600x460.jpg");
+    cursor: pointer;
+    height: 100%;
+    transition: 0.2s;
+}
+.home .mainNews:hover{
+    transform: scale(1.05);
+}
+
+.home .sNews{
+    height: 32vh;
+    margin: 1vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    align-items: end;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.home .sNews:hover{
+    transform: scale(1.05);
+}
+.home .data{
+
+    padding: 10px 0 0 10px;
+   background-color: rgba(0,0,0,0.2);
+    transition: 0.8s;
+}
+.home .data:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.home .data .badge{
+    font-size: 15px;
+    display: none;
+}
+.home .data p{
+    color: rgba(255,255,255,0.5);
+}
+.home .newsBody{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+.home .newsBodyGrid{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    align-items: center;
+}
+.home .squreGrid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    height: 500px;
+}
+@media only screen and (max-width: 765px) {
+    .home .newsBody{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+
+    }
+    .home .newsBodyGrid{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+    }
+}
+
+footer{
+    background-color: black;
+}
+footer .fa{
+    font-size: 20px;
+}
+footer a{
+    color: white;
+}
+.home .socialSide{
+    cursor: pointer;
+}
+.home a{
+
+    text-decoration: none;
+}
+

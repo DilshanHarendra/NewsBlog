@@ -1,0 +1,16 @@
+.NewsSquare{
+    width: 200px;
+
+}
+.NewsSquare .img{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+    transition: 0.2s;
+}
+.NewsSquare p{
+    font-size: 14px;
+}
+.NewsSquare .img:hover{
+    transform: scale(1.05);
+}

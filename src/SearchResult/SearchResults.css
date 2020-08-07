@@ -1,0 +1,8 @@
+.searchResult .NewsSquare{
+    width: 100%;
+
+}
+.searchResult .img{
+    object-fit: cover;
+    height: 250px;
+}

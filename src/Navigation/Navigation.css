@@ -1,0 +1,38 @@
+.navigation a{
+
+    text-decoration: none;
+}
+.navigation .links{
+    padding-top: 5px !important;
+    width: 80%;
+
+}
+.navigation .links a{
+    color: white !important;
+}
+.navigation .social a{
+    color: white !important;
+}
+.navigation .fa{
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.navigation .navbar{
+    border: 1px solid rgba(0,0,0,0.1);
+    color: black;
+    margin-bottom: 10px;
+    background-color: white !important;
+}
+.navigation .nav-link{
+    color: black !important;
+}
+.navigation .navbar-brand{
+    color: black !important;
+}
+.navigation .logo{
+    width: 200px;
+
+}

@@ -1,0 +1,10 @@
+.NewsLarge .img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    transition: 0.2s;
+}
+
+.NewsLarge .img:hover{
+    transform: scale(1.05);
+}
