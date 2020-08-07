@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
-import NewsSmall from "./NewsSmall";
+
 import {connect} from "react-redux";
 
 class Footer extends Component {

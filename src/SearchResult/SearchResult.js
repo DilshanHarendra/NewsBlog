@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from "react";
 import axios from "../axios";
-import NewsSquare from "../Home/NewsSquare";
+
 import "./SearchResults.css";
 import Pagination from "@material-ui/lab/Pagination";
 import getDate from "../getDate";
-import Footer from "../Home/Footer";
+import Footer from "../Footer";
+
 const hashMap = require('hashmap');
 function SearchResult(props) {
 

@@ -1,16 +1,17 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './Home.css';
 
 
 import NewsSmall from "./NewsSmall";
-import axios from "../axios";
+
 import getDate from "../getDate";
 import MainBody from "./MainBody";
 import MainCategoryNews from "./MainCategoryNews";
 import {connect} from "react-redux";
-import Footer from "./Footer";
-import {Link} from "react-router-dom";
+
+
 import NewsBody from "./NewsBody";
+import Footer from "../Footer";
 
 
 function Home(props) {
